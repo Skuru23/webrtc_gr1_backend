@@ -23,7 +23,7 @@ const connectDB = async () => {
 connectDB();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://web-rtc-gr1.onrender.com',
   credentials: true
 }));
 
